@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-12T02:45:46 IST" name="Surefire suite" finished-at="2021-02-12T02:45:57 IST" duration-ms="11586">
+    <groups>
+    </groups>
+    <test started-at="2021-02-12T02:45:46 IST" name="Surefire test" finished-at="2021-02-12T02:45:57 IST" duration-ms="11586">
+      <class name="TestScript">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:TestScript@51b7e5df]" started-at="2021-02-12T02:45:44 IST" name="suiteSetup" finished-at="2021-02-12T02:45:46 IST" duration-ms="1595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method is-config="true" signature="loadBaseUrl(java.lang.reflect.Method)[pri:0, instance:TestScript@51b7e5df]" started-at="2021-02-12T02:45:46 IST" name="loadBaseUrl" finished-at="2021-02-12T02:45:48 IST" duration-ms="1834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestScript.createUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBaseUrl -->
+        <test-method signature="createUserTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestScript@51b7e5df]" started-at="2021-02-12T02:45:48 IST" name="createUserTest" data-provider="tempTestData" finished-at="2021-02-12T02:45:51 IST" duration-ms="2812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aggrawal]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mohit.aggrawal@dispostable.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[“5656336664”]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Main Road]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Birla Apartment]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Noida]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[UttarPradesh]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[“201301”]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[DOGS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:TestScript@51b7e5df]" started-at="2021-02-12T02:45:51 IST" name="screenshotAndDeleteCookies" finished-at="2021-02-12T02:45:51 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createUserTest status=SUCCESS method=TestScript.createUserTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestScript@51b7e5df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotAndDeleteCookies -->
+        <test-method is-config="true" signature="loadBaseUrl(java.lang.reflect.Method)[pri:0, instance:TestScript@51b7e5df]" started-at="2021-02-12T02:45:51 IST" name="loadBaseUrl" finished-at="2021-02-12T02:45:51 IST" duration-ms="275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestScript.searchFavCatagoryTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBaseUrl -->
+        <test-method signature="searchFavCatagoryTest()[pri:0, instance:TestScript@51b7e5df]" started-at="2021-02-12T02:45:51 IST" name="searchFavCatagoryTest" finished-at="2021-02-12T02:45:57 IST" duration-ms="6050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFavCatagoryTest -->
+        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:TestScript@51b7e5df]" started-at="2021-02-12T02:45:57 IST" name="screenshotAndDeleteCookies" finished-at="2021-02-12T02:45:57 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchFavCatagoryTest status=SUCCESS method=TestScript.searchFavCatagoryTest()[pri:0, instance:TestScript@51b7e5df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotAndDeleteCookies -->
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:TestScript@51b7e5df]" started-at="2021-02-12T02:45:57 IST" name="suiteTearDown" finished-at="2021-02-12T02:45:57 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- TestScript -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
